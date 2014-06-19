@@ -1,4 +1,4 @@
-# grazer [![Build Status](https://secure.travis-ci.org/octowombat/grazer.png?branch=master)](http://travis-ci.org/octowombat/grazer)
+# grazer
 
 An API wrapper to the amazing Graze public API.
 
@@ -19,10 +19,41 @@ Now you can run any of the methods.
 
 
 ## Documentation
-_(Coming soon)_
+Please look under the `/doc` folder or on CoffeeDocs.info.
 
 ## Examples
-_(Coming soon)_
+
+### Retrieve product ID 1033 and output result to console.
+
+```javascript
+   new Grazer.getProduct(1033, true, function(result) {
+     console.log (result);
+   });
+```
+
+### Search for products that have 'jalapeno' in their description.
+
+```javascript
+   new Grazer.getProductSearch('jalapeno', true, function(result) {
+     console.log (result);
+   });
+```
+  
+### Retrieve the contents of box F9H0N and output result to console.
+
+```javascript
+   new Grazer.getBoxContents('F9H0N', true, function(result) {
+     console.log (result);
+   });
+```
+
+### Get categories list and log to console
+
+```javascript
+   new Grazer.getCategories(false, function(result) {
+        console.log (result);
+   });
+```
 
 ## Contributing
 **TODO:** the asynch methods need Jasmine tests to be written for them.
@@ -34,3 +65,4 @@ First release (0.1.0): 19/06/2014
 
 ## License
 Copyright (c) 2014 Chris von Csefalvay. Licensed under the MIT license.
+Disclaimer: I am not affiliated with Graze, just a fan of their snack boxes.
