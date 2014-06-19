@@ -66,3 +66,4 @@ First release (0.1.0): 19/06/2014
 ## License
 Copyright (c) 2014 Chris von Csefalvay. Licensed under the MIT license.
 Disclaimer: I am not affiliated with Graze, just a fan of their snack boxes.
+If you enjoy this module, please do me a favour and check out [Special Effect](http://www.specialeffect.org.uk/). They're a charity that helps disabled gamers by acquiring and/or hacking together adaptive and augmentative devices to help them play. The experience of gaming belongs to everyone. Consider donating or helping them out - trust me, it'll change your life.
