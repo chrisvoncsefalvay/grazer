@@ -1,6 +1,6 @@
 {
   "name": "grazer",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "main": "lib/grazer.js",
   "description": "An API wrapper to Graze's API.",
   "homepage": "http://octowombat.github.io/grazer",
