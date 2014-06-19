@@ -1,0 +1,40 @@
+{
+  "name": "grazer",
+  "version": "0.0.0",
+  "main": "lib/grazer.js",
+  "description": "An API wrapper to Graze's API.",
+  "homepage": "http://octowombat.github.io/grazer",
+  "bugs": "https://github.com/octowombat/grazer/issues",
+  "author": {
+    "name": "Chris von Csefalvay",
+    "email": "chris@chrisvoncsefalvay.com",
+    "url": "http://www.chrisvoncsefalvay.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/octowombat/grazer"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+    "matchdep": "~0.1.1",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-watch": "~0.5.0",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-simple-mocha": "~0.4.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "sinon-chai": "~2.4.0",
+    "chai": "~1.7.2",
+    "mocha": "~1.12.1",
+    "sinon": "~1.7.3",
+    "jasmine-node": "^1.14.3",
+    "node-jasmine-async": "^0.1.0"
+  },
+  "dependencies": {
+    "superagent": "^0.18.0",
+    "prettyjson": "^1.0.0"
+  }
+}
