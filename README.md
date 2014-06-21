@@ -1,4 +1,4 @@
-# grazer
+# grazer [![Build Status](https://travis-ci.org/octowombat/grazer.svg?branch=master)](https://travis-ci.org/octowombat/grazer)
 
 An API wrapper to the amazing Graze public API.
 
