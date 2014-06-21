@@ -36,5 +36,8 @@
   "dependencies": {
     "superagent": "^0.18.0",
     "prettyjson": "^1.0.0"
+  },
+  "scripts": {
+    "test": "jasmine-node specs/dist/grazer.spec.js"
   }
 }
