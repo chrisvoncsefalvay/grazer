@@ -1,7 +1,7 @@
 (function() {
   var grazer;
 
-  grazer = require('./../../src/grazer');
+  grazer = require('../../lib/grazer');
 
   describe('Grazer', function() {
     var Grazer;

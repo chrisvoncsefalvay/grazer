@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/JScripture.iml" filepath="$PROJECT_DIR$/.idea/JScripture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/grazer.iml" filepath="$PROJECT_DIR$/.idea/grazer.iml" />
     </modules>
   </component>
 </project>

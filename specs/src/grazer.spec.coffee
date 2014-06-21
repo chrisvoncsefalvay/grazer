@@ -1,4 +1,4 @@
-grazer = require('./../../src/grazer')
+grazer = require('../../lib/grazer')
 
 describe 'Grazer', ->
   Grazer = null
